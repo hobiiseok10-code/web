@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina web</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<header>
+    <div class="menu-toggle">
+        ☰
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobremi.html">Sobre mí</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="contacto.html">Redes</a></li>
+                <li><a href="formulario.html">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<section class="fotografia">
+
+<div class="fotografia-contenedor">
+<div class="fotografia-izquierda">
+<h1 class="titulo-fotografia-proyectos">Proyectos</h1>
+<h2 class="subtitulo-fotografia">Confección e intervención</h2>
+</div>
+
+
+<div class="stopmotion-derecha">
+<h3 class="titulo-stopmotion">Stop Motion</h3>
+
+<p>
+Pintar no es sencillo en papel, y en tela mucho menos, pero con paciencia y muchos colores
+puede salir algo lindo y diferente a pesar de ser lo mismo.</p>
+</div>
+</div> <!-- cierre colaboraciones-contenedor -->
+
+
+<div class="video-stopmotion">
+
+    <iframe
+    src="https://www.youtube.com/embed/sk80a4C7rl0"
+    title="stopmotion"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+    </iframe>
+
+</div>
+</section>
+
+
+<section class="fotografia">
+
+<div class="fotografia-contenedor">
+<div class="fotografia-izquierda">
+<h1 class="titulo-fotografia-proyectos">Proyectos</h1>
+<h2 class="subtitulo-fotografia">Confección e intervención</h2>
+</div>
+
+<div class="fotografia-derecha">
+<h3 class="titulo-fotografia">Magía
+</h3>
+
+<p>
+El crear no es solo hacer una prenda y ya, es hacer que se note el entusiasmo que le colocas a las prenndas al momento de crearlas,
+es imaginar la cara de la personas a la que se le va a entregar; no es un trabajo facil, pero es satisfactorio saber que va a ser bien 
+recibido.
+</p>
+</div>
+
+</div>
+
+<div class="imagen-fotografia">
+<img src="imagenes/over all.jpeg" alt="Fotografía proyecto">
+</div>
+
+</section>
+
+
+
+<section class="fotografia">
+
+<div class="fotografia-contenedor">
+<div class="fotografia-izquierda">
+<h1 class="titulo-fotografia-proyectos">Proyectos</h1>
+<h2 class="subtitulo-fotografia">Confección e intervención</h2>
+</div>
+
+
+<div class="fotografia-derecha">
+<h3 class="titulo-fotografia">Bolso de gatito
+</h3>
+
+<p>
+El crear no es solo hacer una prenda y ya, es hacer que se note el entusiasmo que le colocas a las prenndas al momento de crearlas,
+es imaginar la cara de la personas a la que se le va a entregar; no es un trabajo facil, pero es satisfactorio saber que va a ser bien 
+recibido.
+</p>
+</div>
+
+</div>
+
+<div class="imagen-fotografia">
+<img src="imagenes/bolso.jpeg" alt="Fotografía proyecto">
+</div>
+
+</section>
+
+
+
+<section class="fotografia">
+
+<div class="fotografia-contenedor">
+<div class="fotografia-izquierda">
+<h1 class="titulo-fotografia-proyectos">Proyectos</h1>
+<h2 class="subtitulo-fotografia">Confección e intervención</h2>
+</div>
+
+
+<div class="fotografia-derecha">
+<h3 class="titulo-fotografia">Boina
+</h3>
+
+<p>
+Ser diseñador es chitoso, debes imaginar como hacer real la idea descabellada de alguien, por ejemplo:
+un gorro de hongo.
+De un sombrero, 1 metro de tela y mucho relleno salio este encargo magico.
+</p>
+</div>
+
+</div>
+
+<div class="imagen-fotografia">
+<img src="imagenes/boina.jpeg" alt="Fotografía proyecto">
+</div>
+
+</section>
+
+
+
+<section class="fotografia">
+
+<div class="fotografia-contenedor">
+<div class="fotografia-izquierda">
+<h1 class="titulo-fotografia-proyectos">Proyectos</h1>
+<h2 class="subtitulo-fotografia">Confección e intervención</h2>
+</div>
+
+<div class="fotografia-derecha">
+<h3 class="titulo-fotografia">Gorras
+</h3>
+
+<p>
+Pintar no es sencillo en papel, y en tela mucho menos, pero con paciencia y muchos colores
+puede salir algo lindo y diferente a pesar de ser lo mismo.
+</p>
+</div>
+
+</div>
+
+<div class="imagen-fotografia">
+<img src="imagenes/gorras.jpeg" alt="Fotografía proyecto">
+</div>
+
+</section>
+
+</div>
+</section>
+<footer class="pie-pagina">
+
+<div class="footer-contacto">
+<a href="https://instagram.com/icohen_10">Instagram</a>
+<a href="https://wa.me/573022244378">WhatsApp</a>
+<a href="mailto:hobiiseok@gmail.com">Gmail</a>
+</div>
+<p class="copyright">© 2026 Ivana Cohen | Todos los derechos reservados</p>
+
+</footer>
+
+<script>
+
+const toggle = document.querySelector(".menu-toggle");
+const menu = document.querySelector(".menu");
+
+toggle.addEventListener("click", ()=>{
+
+    menu.classList.toggle("activo");
+
+});
+
+</script>
+
+</body>
+</html>

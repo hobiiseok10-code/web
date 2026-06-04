@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Inicio</title>
+
+<link rel="stylesheet" href="style.css">
+
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+<header>
+    <div class="menu-toggle"> ☰
+    </div>
+        <nav>
+           <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobremi.html">Sobre mí</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="contacto.html">Redes</a></li>
+            <li><a href="formulario.html">Formulario</a></li>
+        </ul>
+        </nav>
+
+        <!-- BANNER -->
+
+<section class="banner-ivana">
+    <div class="aguja"></div>
+    <div class="banner-overlay"></div>
+    <div class="banner-texto">
+
+        <h1>IVANA COHEN</h1>
+
+        <p>Costura • Fashion • Visual Art</p>
+
+</section>
+    </header>
+    
+
+  <section class="inicio-ivana">
+
+<div class="foto-central">
+<img src="imagenes/sobre mi.jpeg" alt="ivana">
+</div>
+
+<h1 class="nombre-ivana">Ivana COHEN</h1>
+</div>
+</section>
+
+
+
+<footer class="pie-pagina">
+
+<div class="footer-contacto">
+<a href="https://instagram.com/icohen_10">Instagram</a>
+<a href="https://wa.me/573022244378">WhatsApp</a>
+<a href="mailto:hobiiseok@gmail.com">Gmail</a>
+</div>
+<p class="copyright">© 2026 Ivana Cohen | Todos los derechos reservados</p>
+
+</footer>
+
+
+<script>
+const toggle = document.querySelector(".menu-toggle");
+const menu = document.querySelector(".menu");
+
+toggle.addEventListener("click", ()=>{
+
+    menu.classList.toggle("activo");
+});
+</script>
+
+</body>
+</html>

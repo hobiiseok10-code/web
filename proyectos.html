@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina web</title>
+
+    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- FUENTES -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+
+ 
+</head>
+
+<body>
+
+<header>
+    <div class="menu-toggle">
+        ☰
+    </div>
+    <nav>
+        <nav>
+            <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobremi.html">Sobre mí</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="contacto.html">Redes</a></li>
+            <li><a href="formulario.html">Formulario</a></li>
+        </ul>
+        </nav>
+   
+</header>
+
+    <section class="inicio-ivana">
+
+<div class="foto-central">
+<img src="imagenes/me.jpeg" alt="ivana">
+</div>
+
+<h1 class="nombre-ivana">ivana</h1>
+
+<div class="contactos">
+
+<div class="contacto-item">
+<a href="https://instagram.com/icohen_10" target="_blank" class="boton-contacto">Instagram</a>
+</div>
+
+<div class="contacto-item">
+<a href="https://wa.me/573022244378" target="_blank" class="boton-contacto">WhatsApp</a>
+</div>
+
+<div class="contacto-item">
+<a href="mailto:hobiiseok@gmail.com" target="_blank" class="boton-contacto">Gmail</a>
+</div>
+
+</div>
+
+</section>
+
+<footer class="pie-pagina">
+
+<div class="footer-contacto">
+<a href="https://instagram.com/icohen_10">Instagram</a>
+<a href="https://wa.me/573022244378">WhatsApp</a>
+<a href="mailto:hobiiseok@gmail.com">Gmail</a>
+</div>
+<p class="copyright">© 2026 Ivana Cohen | Todos los derechos reservados</p>
+
+</footer>
+
+<script>
+
+const toggle = document.querySelector(".menu-toggle");
+const menu = document.querySelector(".menu");
+
+toggle.addEventListener("click", ()=>{
+
+    menu.classList.toggle("activo");
+
+});
+
+</script>
+
+</body>
+</html>
